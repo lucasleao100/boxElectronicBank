@@ -1,6 +1,6 @@
 package com.lucasl.challenge.withdraw.operations;
 
-import com.lucasl.challenge.withdraw.Service.OperationService;
+import com.lucasl.challenge.withdraw.service.OperationService;
 import com.lucasl.challenge.withdraw.command.OperationCommand;
 import com.lucasl.challenge.withdraw.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -30,7 +30,7 @@ public class CashWithDrawalOperation extends OperationCommand {
             notesMap.put(result.get(0), res);
             listNotesMap.add(notesMap);
         });
-        
+
         return listNotesMap;
     }
 }

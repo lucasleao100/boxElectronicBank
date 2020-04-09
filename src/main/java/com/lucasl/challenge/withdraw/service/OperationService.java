@@ -1,4 +1,4 @@
-package com.lucasl.challenge.withdraw.Service;
+package com.lucasl.challenge.withdraw.service;
 
 import com.lucasl.challenge.withdraw.command.OperationCommand;
 import com.lucasl.challenge.withdraw.config.AppConfig;

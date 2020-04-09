@@ -1,6 +1,6 @@
 package com.lucasl.challenge.withdraw.operations;
 
-import com.lucasl.challenge.withdraw.Service.OperationService;
+import com.lucasl.challenge.withdraw.service.OperationService;
 import com.lucasl.challenge.withdraw.config.AppConfig;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

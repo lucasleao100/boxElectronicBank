@@ -1,6 +1,6 @@
 package com.lucasl.challenge.withdraw;
 
-import com.lucasl.challenge.withdraw.Service.OperationService;
+import com.lucasl.challenge.withdraw.service.OperationService;
 import com.lucasl.challenge.withdraw.config.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
