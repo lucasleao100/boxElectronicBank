@@ -1,6 +1,6 @@
 package com.lucasl.challenge.withdraw.config;
 
-import com.lucasl.challenge.withdraw.Service.OperationService;
+import com.lucasl.challenge.withdraw.service.OperationService;
 import com.lucasl.challenge.withdraw.operations.CashWithDrawalOperation;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;

@@ -1,13 +1,15 @@
 package com.lucasl.challenge.withdraw.operations;
 
-import com.lucasl.challenge.withdraw.service.OperationService;
 import com.lucasl.challenge.withdraw.command.OperationCommand;
 import com.lucasl.challenge.withdraw.config.AppConfig;
+import com.lucasl.challenge.withdraw.service.OperationService;
+import io.reactivex.Observable;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
 public class CashWithDrawalOperation extends OperationCommand {
